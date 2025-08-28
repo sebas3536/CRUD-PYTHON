@@ -1,0 +1,5 @@
+Flask>=2.0
+Flask-SQLAlchemy>=3.0
+marshmallow>=3.0
+marshmallow-sqlalchemy>=0.26
+email-validator>=1.3
