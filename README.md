@@ -59,11 +59,20 @@ A continuación, se listan los endpoints disponibles para interactuar con la API
 | Método HTTP | Endpoint | Descripción |
 
 * | POST | /clientes | Crea un nuevo cliente. |
+* <img width="777" height="577" alt="image" src="https://github.com/user-attachments/assets/6b94fbeb-582d-4e56-a7a8-266c3eff8d94" />
 
 * | GET | /clientes | Obtiene una lista de todos los clientes. |
+* <img width="711" height="558" alt="image" src="https://github.com/user-attachments/assets/43067ddc-5e22-4756-9d44-11abe582b4f5" />
+
 
 * | GET | /clientes/<id> | Obtiene los detalles de un cliente por su ID. |
+* <img width="758" height="582" alt="image" src="https://github.com/user-attachments/assets/de8f3187-d159-4e82-b4e4-e49dda99e314" />
+
 
 * | PUT | /clientes/<id> | Actualiza la información de un cliente existente. |
+* <img width="659" height="565" alt="image" src="https://github.com/user-attachments/assets/770d64ff-3a22-4778-b5cb-23e090732945" />
+
 
 * | DELETE | /clientes/<id> | Elimina un cliente por su ID. |
+* <img width="637" height="486" alt="image" src="https://github.com/user-attachments/assets/cc794f1e-7777-486f-b116-9e3fc6d5ed99" />
+
