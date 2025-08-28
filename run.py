@@ -1,5 +1,5 @@
 from app import create_app
-import init_db  # Este se ejecuta al importar y reinicia la DB
+import init_db  
 
 app = create_app()
 
