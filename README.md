@@ -283,37 +283,6 @@ curl -X PUT http://localhost:5000/api/v1/clientes/1 \
 curl -X DELETE http://localhost:5000/api/v1/clientes/1
 ```
 
-## 📁 Estructura del Proyecto
-
-```
-CRUD-PYTHON/
-├── app.py                    # Punto de entrada de la aplicación
-├── config.py                 # Configuración de la aplicación
-├── requirements.txt          # Dependencias del proyecto
-├── .env.example             # Variables de entorno ejemplo
-├── .gitignore               # Archivos ignorados por git
-├── README.md                # Este archivo
-├── LICENSE                  # Licencia MIT
-│
-├── app/
-│   ├── __init__.py          # Inicialización del paquete
-│   ├── models.py            # Modelos SQLAlchemy
-│   ├── schemas.py           # Esquemas Marshmallow
-│   ├── error_handlers.py    # Gestión centralizada de errores
-│   │
-│   └── routes/
-│       ├── __init__.py
-│       └── clientes.py      # Endpoints de clientes
-│
-├── instance/
-│   └── app.db               # Base de datos SQLite (generada)
-│
-└── tests/
-    ├── __init__.py
-    ├── test_clientes.py     # Tests unitarios
-    └── conftest.py          # Configuración pytest
-```
-
 ## 🔒 Validación de Datos
 
 El sistema implementa validación exhaustiva en múltiples niveles:
